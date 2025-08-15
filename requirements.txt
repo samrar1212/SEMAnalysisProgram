@@ -1,4 +1,4 @@
 streamlit
 matplotlib 
 scipy
-skimage
+scikit-image
