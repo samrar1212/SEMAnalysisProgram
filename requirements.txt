@@ -1,4 +1,4 @@
 streamlit
 matplotlib 
 scipy
-scikit-image
+scikit-image>=0.20.0
