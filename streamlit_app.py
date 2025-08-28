@@ -78,7 +78,8 @@ class StreamlitFiberAnalyzer:
                 from skimage.transform import hough_line, hough_line_peaks
                 tested_angles = np.linspace(-np.pi / 2, np.pi / 2, 360, endpoint=False)
                 h, theta, d = hough_line(edges, theta=tested_angles)
-                peaks = hough_line_peaks(h, theta, d, min_length=30, min_distance=20)
+                peaks = hough_line_peaks(h, theta, d, min_distance=20)
+                #peaks = hough_line_peaks(h, theta, d, min_length=30, min_distance=20)
                 
                 # Convert to lines format similar to cv2.HoughLinesP
                 lines = []
