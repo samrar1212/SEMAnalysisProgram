@@ -2,4 +2,4 @@ streamlit
 matplotlib 
 scipy
 scikit-image==0.18.3
-skimage
+pip install scikit-image
